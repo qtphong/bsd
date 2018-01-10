@@ -1,0 +1,17 @@
+page-news {
+    .rowNews{
+        @extend .rowNews;
+        .rowFooter{
+            display: inline-block;
+            .rowFooterButton{
+                .rowFooterWriterText{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+            .rowFooterButtonText{
+                color:#000 !important;
+            }
+        }
+    }
+}

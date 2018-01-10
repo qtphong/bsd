@@ -1,0 +1,36 @@
+page-register {
+
+    .registerButton{
+        width: 90%;
+        color:$whiteColor;
+        background: $primaryColor;
+        margin:0 auto;
+        padding:5px;
+        font-size: 25px;
+        margin-top:15px;
+    }    
+
+    .forgotPassword{
+        display:block;
+        text-align: right;
+        text-decoration: underline;
+        padding-bottom: 30px;
+        padding-right: 20px;
+    }
+
+    .footerGroup{
+        margin: 0 auto;
+        width: 90%;
+        .loginText{
+           text-decoration: underline;
+        }
+        .helpText{
+            text-decoration: underline;
+            text-align: right;
+        }
+        .aboutText{
+            text-align: center;
+            
+        }
+    }
+}

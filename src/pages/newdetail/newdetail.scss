@@ -1,0 +1,23 @@
+page-newdetail {
+    .rowNewDetail{
+        > ion-col:first-child{
+            border-bottom: 3px solid $primaryColor;
+        }
+        img{
+            width: 80%;
+        }
+        .newContent{
+            text-align: justify;
+            font-size: 15px;
+        }
+        .smallDetail{
+            font-size: 13px;
+            > ion-col:nth-child(2){
+                text-align: center;
+            }
+            > ion-col:nth-child(3){
+                text-align: right;
+            }
+        }
+    }
+}

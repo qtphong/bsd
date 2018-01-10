@@ -1,0 +1,17 @@
+page-buyandsellcontact {
+    #map{
+        height: 70%;
+    }
+
+    .newContent{
+        padding:7px 3px 3px 5px;
+        line-height: 25px;
+    }
+    .footerButton{
+        width: 100%;
+        position: fixed absolute;
+        bottom: 0;
+        height: 30px;
+        background: $primaryColor;
+    }
+}

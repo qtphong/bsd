@@ -1,0 +1,31 @@
+page-login {
+   
+    .loginButton{
+        width: 90%;
+        color:$whiteColor;
+        background: $primaryColor;
+        margin:0 auto;
+        padding:5px;
+        font-size: 25px;
+    }    
+
+    .forgotPassword{
+        display:block;
+        text-align: right;
+        text-decoration: underline;
+        padding-bottom: 30px;
+        padding-right: 20px;
+    }
+
+    .footerGroup{
+        text-align: center;
+        padding-top:30px;
+        .createAccountText,.helpText,{
+            text-decoration: underline;
+            margin-top:10px;
+        }
+        .aboutText{
+            margin-top:10px;
+        }
+    }
+}
